@@ -4,5 +4,5 @@
 
 **Project 1**
 
-[Link](./Project%207%20VS%20CODE/)
+[Project 1 link](./Project%201%20VS%20CODE/)
 
