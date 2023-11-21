@@ -4,5 +4,5 @@
 ### This website is only for educational Purpose
 
 ### Visit website
-#### Best view at 75% zoom
+
 [Visit website](https://boisterous-beignet-c4e8aa.netlify.app/)
