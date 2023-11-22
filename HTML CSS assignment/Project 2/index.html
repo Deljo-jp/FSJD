@@ -7,20 +7,60 @@
     <title>One Card</title>
 </head>
 <body class="m-0 p-0 box-border">
-    <main>
-        <!-- NAVBAR -->
 
-            <nav class="flex items-center py-[20px]">
-                 <img src="./Icons/Logo.svg" alt="Logo">
+     <!-- NAVBAR -->
 
-                 <ul class="flex items-center">
-                    <li>Home</li>
-                    <li>features</li>
-                    <li>Pricing</li>
-                    <li>About Us</li>
-                 </ul>
+    <section class="flex py-[20px] bg-[#0d0c0c]">
 
-            </nav>
-    </main>
+        <div class="flex items-center ml-[60px]">
+           <img class="w-[80%]" src="./Assets/Icons/Logo.svg" alt="logo">
+         </div>
+
+        <nav class="flex ml-[280px] px-[30px] cursor-pointer">
+            <ul class="flex justify-center items-center text-white">
+                <li class="mr-[35px]">Home</li>
+                <li class="mr-[35px]">Features</li>
+                <li class="mr-[35px]">Pricing</li>
+                <li class="mr-[35px]">About US</li>
+            </ul>
+
+            <div class="flex relative justify-center items-center bg-inherit ml-[150px]">
+                <select class="border-none bg-inherit text-white">
+                    <option class="text-white bg-[#0d0c0c]" value="English">Eng</option>
+                    <option class="text-white bg-[#0d0c0c]" value="Germen">Germen</option>
+                </select>
+            </div>
+
+            <ul class="flex items-center  text-white">
+                <li class="ml-[40px] absolute">Contact Us</li>
+            </ul>
+
+            <div>
+                <img class="mt-[10px] ml-[30px]" src="./Assets/Icons/btn-pink-bg.svg" alt="">
+            </div>
+        </nav>
+    </section>
+
+    <!-- MAIN SECTION -->
+
+    <section class="bg-[#0d0c0c]">
+
+        <!-- Background images -->
+        <div class="flex justify-items-end">
+            <!-- <div>
+                <img class="absolute w-[50%] " src="./Assets/Photos/backCards.png" alt="image">
+            </div>
+
+            <div>
+                <img class="absolute w-[50%] " src="./Assets/Photos/frontCards.png" alt="image">
+            </div> -->
+            <div class="w-1/2 h-1/2 bg-no-repeat"
+            style="background-image: url('./Assets/Photos/backCards.png');">
+            </div>
+            <div class="w-1/2 h-1/2 bg-no-repeat"
+            style="background-image: url('./Assets/Photos/frontCards.png');">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
