@@ -1,0 +1,90 @@
+/* OPTION BAR */
+
+.outer1{
+    padding-inline: 90px;
+    position: relative;
+}
+
+.outer1:hover{
+    background-color: #faf7f7;
+}
+
+.outer1:hover .inner1{
+    display: block;
+}
+
+.inner1{
+    padding-inline: 90px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.outer2{
+    padding-inline: 90px;
+    position: relative;
+}
+
+.outer2:hover{
+    background-color: #faf7f7;
+}
+
+.outer2:hover .inner2{
+    display: block;
+   
+}
+
+.inner2{
+    padding-inline: 90px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.outer3{
+    padding-inline: 90px;
+    position: relative;
+}
+
+.outer3:hover{
+    background-color: #faf7f7;
+}
+
+.outer3:hover .inner3{
+    display: block;
+   
+}
+
+.inner3{
+    padding-inline: 90px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+.outer4{
+    padding-inline: 90px;
+    position: relative;
+}
+
+.outer4:hover{
+    background-color: #faf7f7;
+}
+
+.outer4:hover .inner4{
+    display: block;
+   
+}
+
+.inner4{
+    padding-inline: 90px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+
